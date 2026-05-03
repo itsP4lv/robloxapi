@@ -7,6 +7,6 @@
   "scripts": {
     "postinstall": "npm install --prefix ./api",
     "start": "npm start --prefix ./api",
-    "bot": "node api/discord-bot.js"
+    "bot": "npm run bot --prefix ./api"
   }
 }
