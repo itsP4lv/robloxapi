@@ -1,6 +1,6 @@
-# Blueprint Render — créer ou aligner depuis le dashboard.
-# Sinon : Web Service → Settings → Root Directory = `api` (sans ce fichier).
-# Doc monorepo : https://render.com/docs/monorepo-support
+# Blueprint Render (rootDir api recommandé).
+# Si Root Directory reste vide : un package.json à la racine délègue install/start vers ./api.
+# Doc : https://render.com/docs/monorepo-support
 services:
   - type: web
     name: robloxapi

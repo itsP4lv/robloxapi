@@ -1,0 +1,11 @@
+{
+  "name": "robloxapi-monorepo",
+  "private": true,
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "postinstall": "npm install --prefix ./api",
+    "start": "npm start --prefix ./api"
+  }
+}
